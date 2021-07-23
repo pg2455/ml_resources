@@ -2,3 +2,4 @@
 sample/
 **/.ipynb_checkpoints
 **/data/
+**/models/
