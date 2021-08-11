@@ -20,7 +20,6 @@ Following type of resources are available:
   - `<name>.ipynb`: If the hackathon is based upon a published research paper, this notebook reproduces the results of that paper. It enables me to think through possible avenues that can be left open to design a hackathon.
   - `<name>_hackathon.ipynb`: This notebook presents the hackathon in the form of questions to guide solution design.
 
-
 ## Courses
 
 1. [Noise reduction](courses/noise-reduction):
@@ -34,7 +33,7 @@ Following type of resources are available:
          3. Digital Filters
          4. Machine Learning Filters
          5. Denoising Autoencoders (DAE)
-   2. [Practical](courses/noise-reduction/practical/noise-reduction-pratcical-solution.ipynb) (Dataset: [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)): Build and train a DAE on [Fashion MNIST dataset](https://github.com/zalandoresearch/fashion-mnist).
+   2. [Practical](courses/noise-reduction/practical/noise-reduction-practical-solution.ipynb) (Dataset: [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)): Build and train a DAE on [Fashion MNIST dataset](https://github.com/zalandoresearch/fashion-mnist).
 
 
 2. [Deep Autoencoders and Variational Autoencoders](courses/deep-autoencoders)
