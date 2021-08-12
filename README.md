@@ -1,7 +1,7 @@
 # Machine Learning Resources
 
 This repository contains resources that I create from time to time.
-I am still experimenting with the format of these resources, so any feedback will be highly appreciated.
+I am still experimenting with the format of these resources so any feedback will be highly appreciated.
 
 Following type of resources are available:
 
