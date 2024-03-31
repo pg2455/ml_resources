@@ -1,0 +1,17 @@
+Variables: 
+!<INPUT 0>! -- Statements
+!<INPUT 1>! -- curr persona name
+!<INPUT 2>! -- target_persona.scratch.name
+
+<prompt_start>###</prompt_start>
+Task -- Summarize the conversation below. 
+The output must continue the sentence above folloing *Output:*. Don't start with 'this is a conversation about...' Just finish the sentence but do not miss any important details (including who are chatting).
+Example:
+Output: conversing about what to eat for lunch
+
+[Statements]
+!<INPUT 0>!
+
+Based on the statements above, summarize !<INPUT 1>! and !<INPUT 2>!'s conversation.
+Output: 
+

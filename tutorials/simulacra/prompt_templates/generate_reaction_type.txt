@@ -1,0 +1,26 @@
+!<INPUT 0>! --- Context
+!<INPUT 1>! --- current time
+!<INPUT 2>! --- Agent action description
+!<INPUT 3>! --- Other agent action description
+!<INPUT 4>! --- Agent's name
+!<INPUT 5>! --- Other Agent's name
+!<INPUT 6>! --- Agent's ISS
+!<INPUT 7>! --- Other Agent's ISS
+
+<prompt_start>###</prompt_start>
+Task -- given context and two options that a subject can take, determine which option is the most acceptable. 
+!<INPUT 4>!'s information: 
+!<INPUT 6>!
+
+!<INPUT 5>!'s information:
+!<INPUT 7>!
+
+Context: !<INPUT 0>!
+Right now, it is !<INPUT 1>!. 
+Current information about the person (!<INPUT 4>!): !<INPUT 2>! 
+Current information about the other person (!<INPUT 5>!): !<INPUT 3>! 
+My question: Let's think step by step. Of the following three options, what should !<INPUT 4>! do?
+Option 1: Continue with it's own work
+Option 2: Open a conversation with !<INPUT 5>!
+Reasoning: <FILL>
+Option: <FILL WITH either of 1 or 2>

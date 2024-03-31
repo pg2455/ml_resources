@@ -1,0 +1,15 @@
+Variables: 
+!<INPUT 0>! -- Schedule format
+!<INPUT 1>! -- Commonset
+!<INPUT 2>! -- broad schedule
+!<INPUT 3>! -- prior schedule in the day
+!<INPUT 4>! -- prompt_ending
+
+<prompt_start>###</prompt_start>
+Hourly schedule format: 
+!<INPUT 0>!
+===
+!<INPUT 1>!
+!<INPUT 2>!
+!<INPUT 3>!
+!<INPUT 4>!

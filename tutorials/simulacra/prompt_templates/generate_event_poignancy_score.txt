@@ -1,0 +1,14 @@
+!<INPUT 0>!: agent name
+!<INPUT 1>!: iss
+!<INPUT 2>!: event description
+
+<prompt_start>###</prompt_start>
+Here is a brief description of !<INPUT 0>!. 
+!<INPUT 1>!
+
+On the scale of 1 to 10, where 1 is purely mundane (e.g., brushing teeth, making bed) and 10 is extremely poignant (e.g., a break up, college acceptance), rate the likely poignancy of the following event for !<INPUT 0>!.
+
+Note: The output should ONLY contain ONE integer value on the scale of 1 to 10.
+
+Event: !<INPUT 2>!
+Rate (return *ONLY* a number between 1 to 10):

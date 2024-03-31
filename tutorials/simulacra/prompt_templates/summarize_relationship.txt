@@ -1,0 +1,10 @@
+Variables: 
+!<INPUT 0>! -- Statements
+!<INPUT 1>! -- curr persona name
+!<INPUT 2>! -- target_persona.scratch.name
+
+<prompt_start>###</prompt_start>
+[Statements]
+!<INPUT 0>!
+
+Based on the statements above, summarize !<INPUT 1>! and !<INPUT 2>!'s relationship. What do they feel or know about each other?

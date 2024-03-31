@@ -1,0 +1,35 @@
+Variables: 
+!<INPUT 0>! -- curr action seq
+!<INPUT 1>! -- Objects available
+
+<prompt_start>###</prompt_start>
+Task: Select *ONE* object from the list of *Objects available* to accomplish *Current activity*. 
+Do not make up an option. Select the closest possible option.  
+
+Current activity: sleep in bed
+Pick ONE most relevant object from {bed, easel, closet, painting}
+Object: bed
+---
+Current activity: painting
+Pick ONE most relevant object from {easel, closet, sink, microwave}
+Object: easel
+---
+Current activity: cooking
+Pick ONE most relevant object from {stove, sink, fridge, counter}
+Object: stove
+---
+Current activity: watch TV
+Pick ONE most relevant object from {couch, TV, remote, coffee table}
+Object: TV
+---
+Current activity: study
+Pick ONE most relevant object from {desk, computer, chair, bookshelf}
+Object: desk
+---
+Current activity: talk on the phone
+Pick ONE most relevant object from {phone, charger, bed, nightstand}
+Object: phone
+---
+Current activity: !<INPUT 0>!
+Pick ONE most relevant object from {!<INPUT 1>!}
+Object:

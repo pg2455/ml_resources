@@ -1,0 +1,43 @@
+Variables: 
+!<INPUT 0>! -- speaker ISS
+!<INPUT 1>! -- speaker name
+!<INPUT 2>! -- retrieved memory of speaker
+!<INPUT 3>! -- past conversation between the two
+!<INPUT 4>! -- current location
+!<INPUT 5>! -- current context (what were speaker and listener doing)
+!<INPUT 6>! -- listner name
+!<INPUT 7>! -- curr convo
+!<INPUT 9>! -- persona name
+!<INPUT 10>! -- target persona name
+!<INPUT 11>! -- persona name
+!<INPUT 12>! -- persona name
+!<INPUT 13>! -- persona name
+
+<prompt_start>###</prompt_start>
+Context for the task: 
+
+PART 1. 
+Here is a brief description of !<INPUT 1>!:
+!<INPUT 0>!
+
+Here is the memory that is in !<INPUT 1>!'s head: 
+!<INPUT 2>!
+
+PART 2. 
+Past Context: 
+!<INPUT 3>!
+
+Current Location: !<INPUT 4>!
+
+Current Context: 
+!<INPUT 5>!
+
+!<INPUT 1>! and !<INPUT 6>! are chatting. Here is their conversation so far: 
+!<INPUT 7>!
+
+---
+Task: Given the above, what should !<INPUT 1>! say to !<INPUT 6>! next in the conversation? And did it end the conversation?
+
+Output should be of the following format:
+!<INPUT 1>!: <Fill !<INPUT 1>!'s utterance>
+Conversation ends here?: <Answer in False or True>

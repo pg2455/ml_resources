@@ -1,0 +1,10 @@
+Variables (for readability): 
+!<INPUT 0>! -- Identity Stable Set
+!<INPUT 1>! -- Lifestyle
+!<INPUT 2>! -- Persona first names
+
+<prompt_start>###</prompt_start>
+!<INPUT 0>!
+
+In general, !<INPUT 1>!
+!<INPUT 2>!'s wake up hour:
