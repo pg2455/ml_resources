@@ -1,0 +1,3 @@
+[submodule "tutorials/LLM-Transmission-Chains"]
+	path = tutorials/LLM-Transmission-Chains
+	url = https://github.com/pg2455/LLM-Transmission-Chains.git
